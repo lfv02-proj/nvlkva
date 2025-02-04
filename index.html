@@ -1,12 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+<title>Happy Valentine's Day for My Love - Ana V. </title>
+<script type="text/javascript" src="sound-onclick.js"></script>
+<style>
+body {
+  font-family: sans-serif;
+ # background-color: #f0f0f0;
+  background: linear-gradient(to bottom, #ff9966, #ff5e62); /* Gradient background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  min-height: 100vh;
+  margin: 0;
+ # color: white; /* White text for contrast */
+}
+
+.top {
+  margin-top: 10px;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  #background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rbottom {
+  text-align:center;
+  color:white;
+  font-size: small;
+  margin-top:10px;
+}
+
+h1 {
+  text-align: center;
+  color: #e60000;
+  font-size: large;
+  position:sticky;
+  text-shadow: 2px 2px 5px white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  position: relative;
+  #background-color: #f0f0f0;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: reveal 1s forwards ease-out;
+  }
+  
+  li:nth-child(1) {
+      animation-delay: 0.5s;
+  }
+  li:nth-child(2) {
+      animation-delay: 1s;
+  }
+  li:nth-child(3) {
+      animation-delay: 1.5s;
+  }
+  li:nth-child(4) {
+      animation-delay: 2s;
+  }
+  li:nth-child(5) {
+      animation-delay: 2.5s;
+  }
+  li:nth-child(6) {
+      animation-delay: 3s;
+  }
+  li:nth-child(7) {
+      animation-delay: 3.5s;
+  }
+  li:nth-child(8) {
+      animation-delay: 4s;
+  }
+  li:nth-child(9) {
+      animation-delay: 4.5s;
+  }
+  li:nth-child(10) {
+      animation-delay: 5s;
+  }
+  li:nth-child(11) {
+      animation-delay: 5.5s;
+  }
+  li:nth-child(12) {
+      animation-delay: 6s;
+  }
+  li:nth-child(13) {
+      animation-delay: 6.5s;
+  }
+  li:nth-child(14) {
+      animation-delay: 7s;
+  }
+  li:nth-child(15) {
+      animation-delay: 7.2s;
+  }
+  li:nth-child(16) {
+      animation-delay: 8s;
+  }
+  li:nth-child(17) {
+      animation-delay: 8.2s;
+  }
+  li:nth-child(18) {
+      animation-delay: 9s;
+  }
+  li:nth-child(19) {
+      animation-delay: 9.2s;
+  }
+  li:nth-child(20) {
+      animation-delay: 10s;
+  }
+  li:nth-child(21) {
+      animation-delay: 10.2s;
+  }
+  li:nth-child(22) {
+      animation-delay: 11s;
+  }
+  li:nth-child(23) {
+      animation-delay: 11.2s;
+  }
+  li:nth-child(24) {
+      animation-delay: 12s;
+  }
+  li:nth-child(25) {
+      animation-delay: 12.2s;
+  }
+  li:nth-child(26) {
+      animation-delay: 13s;
+  }
+  li:nth-child(27) {
+      animation-delay: 13.2s;
+  }
+  li:nth-child(28) {
+      animation-delay: 14s;
+  }
+  @keyframes reveal {
+      to {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  li:hover {
+    background-color: #d0d0d0;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+	color:white;
+  }
+  li:hover, span:active {
+   font-size:110%;
+   background-color: red;
+  }
+
+li:before {
+  content: "\2764"; /* Heart symbol */
+  color: #e60000;
+  position: absolute;
+  left: -25px;
+  top: 5px;
+}
+
+li span {
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 17px;
+}
+</style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is my first HTML5 webpage hosted on GitHub Pages!</p>
+
+<div class="top"> 
+    <audio id="player1" controls autoplay>
+     <source src="Belong Together.m4a" type="audio/mp4">
+	 <source src="meow.m4a" type="audio/mp4">
+    </audio>
+</div>
+
+<div class="container" OnClick="playclip();">
+  <h1>Reasons Why I Love You</h1>
+  <ul>
+    <li><span>Your beautiful eyes, the most beautiful. </span></li>
+	<li><span>Your smile, especially when looking at me. </span></li>
+	<li><span>The way you create things, in your own way. </span></li>
+    <li><span>Your presence, feels like home, a safe place, a shelter. </span></li>
+	<li><span>Ahhh, so good, your smell. </span></li>
+	<li><span>I feel so lucky to have you in my life. </span></li>
+	<li><span>How kind and compassionate you are. </span></li>
+    <li><span>Incredibly strong and independent woman. </span></li>
+	<li><span>So intelligent, funny, inspiring and motivational company you are. </span></li>
+	<li><span>The most infectious/contagious laugh of yours. </span></li>
+	<li><span>You're so adventurous and spontaneous/horny. </span></li>
+    <li><span>You always know how to make me feel better, just 'cuz. </span></li>
+    <li><span>My best friend ever and my soulmate. </span></li>
+    <li><span>The way you make me feel so special. </span></li>
+    <li><span>Your adventurous spirit. </span></li>
+    <li><span>Your incredible sense of humor/random/smart way. </span></li>
+    <li><span>The way you always going for your dreams. </span></li>
+    <li><span>Your beautiful mind and soul. Inside and out(for sure, aahhhw ). </span></li>
+    <li><span>You have the most perfect hair. </span></li>
+	<li><span>So elegant, businesswoman, sexier :D </span></li>
+	<li><span>You're absolutely stunning. </span></li>
+    <li><span>You look incredible in everything you wear, a variety of colors. </span></li>
+	<li><span>I can't imagine my life without you. </span></li>
+	<li><span>You make me a better person. </span></li>
+	<li><span>I'm so proud to be your boyfriend/future husband.</span></li>
+    <li><span>My Betrothed .</span></li>
+	<li><span>I love you more than words can say.</span></li>
+    <li><span>Simply, everything about you.</span></li>
+  </ul>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+<div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
+  data-link="https://photos.app.goo.gl/tFzmF94hY5WHbSg77"
+  data-title="My Love"
+  data-description="10 new items · Album Petit Potato.">
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczOhs31AUeWnlS4H6nttCHe0_8kBQf7Qm0ncKXqZvlxYG2dZGBuxPmruhGg6GvBuPq2R0LvzT2RWOl0hf8O40PYFEAkyCyRkFumyTIuemVfgIBJans6A=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczOn5k-9t1EmbPP7yPpyEmBSOXtxG7LXipHlMuz_CLkMES2HJHw6HYF1LhORM1M9EXj6omdUeRCAjwPt8hNpziQbHxvKnvmXc2aEN1d8O_0vUKifhMxj=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczO7C9BnOF4u5qB7bVYeckxNHmyUBzL2LF2r8Qs7uANUn2D8ZNo1E98MqdWzPW8oe94-GXzeQufm6HJ7tHFuESLd0e7e-PWyJhcXfRlQfOBWE7h_ZxJ-=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPKSp8K53tsY91a3W2Mudq9GGpVX0IECEBFuW_KvyX4iNmcVN-96OAO3vdeJEuvY638cZZWXXgMmPfjsWUKYEJmWDNLwbWsmw4ARK-0yWmsmT0TuAt0=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczNULWPQqDs-qfjrISvcc-0g2ZFnaPpriA6Ol1SzXxz-ROB999sUZbq00rMkDdFty5v-QXdtUhtbV0qcH00Hf5CNIr8jbHknxEyPkLCh5A_nmGgihhGA=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczPYOakpPpkOKbHRt2L8QJJLgtV9dewv7FG3UVv2QkCTd8_k_Tqo3hACjPGd10TM0vo52NI5TjnbEOM7OkKQLXTwGwIlCJURTVNO8P1LEzarpnQZy1yf=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczMpODR5oD7SbyczK0-a4w4CVhr9cRY8Ej29KtugtaT89m6Rt5IJKCH5bfuvi4O1VH92qGFcGQ0mGXzyv_SsDp4aOpYeAtHQOs1goC6_dqyj-Ed3Yqbv=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczMRQXgUQWW5nuTq9XXD_gg5lCXO8QvCVCWT4zFou5fPgeau_d5V4mHJR2PGu2FQrVenCOOQjNHTM96rFl87hbmlF5sej3luP-aGzqc8h67N_TcqxNEb=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczNXqc5ZyhOse4VXzUWftEmEQKLQpVOJWTbesytdlfNr1ES-hBjJOKMS-NGtnFj5tJxBTkLtIqSM4JUpQG9dgk_kR6zrduUI8qzkjXmQPCIbHKJsqziH=w2400"></object>
+  <object data="https://lh3.googleusercontent.com/pw/AP1GczO1V6-WaqsPEd4-8_ODiDJklTzvJ0prZrEhWcC6B0KmTXOgV0CTerM4bNn3W-yXvixjouMdd9xnUBx2e2AXchWJgGolwR4mHjq1a4CO1Jmp-zm61E92=w2400"></object>
+</div>
+
+<div class="rbottom"> Code genarated with AI but z velykoyu lyubov'yu ❤. </br> from Lucas V. to Ana V.
+<audio id="player2">
+	 <source src="meow.m4a" type="audio/mp4">
+    </audio>
+</div>
+
 </body>
 </html>
